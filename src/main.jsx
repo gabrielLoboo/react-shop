@@ -15,7 +15,7 @@ import VisualizarAparelhos from './routes/VisualizarAparelhos/index.jsx'
       children : [
         {path : "/", element: <Home />},
         {path : "/aparelhos", element : <Aparelhos />},
-        {path : "/visualizar/aparelhos/:id", element : <VisualizarAparelhos />},
+        {path : "/aparelhos/editar/:id", element : <VisualizarAparelhos />},
         {path : "/antiga", element : <Navigate to="/"/>}
 
       ]

@@ -12,7 +12,7 @@ export default function VisualizarAparelhos() {
 
     const salvar = ()=>{
         alert(`Aparelho: ${aparelho.marca} visualizado com sucesso`)
-        return navegacao('./aparelhos')
+        return navegacao('/')
     }
 
     return (
